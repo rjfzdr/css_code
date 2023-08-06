@@ -1,0 +1,22 @@
+.container{
+    border: 3px solid red;
+    background-color: aqua;
+    display: flex;
+    height: 500px;
+    width: 500px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: blue;
+    border: 2px solid orange;
+    transition:transform 5s ease ;  
+}
+
+.box:hover{
+    background-color: yellow; 
+    transform: rotate(360deg) translateX(501px) scale(2);
+    
+}

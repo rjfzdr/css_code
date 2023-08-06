@@ -1,0 +1,54 @@
+.container{
+    border: 1px solid red;
+    background-color: yellow;
+
+    height: 700px;
+    width: 600px;
+
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+
+    grid-gap: 10px;
+
+    /* jc is the position of the content about its horizontal(main) axis 
+    <---------------------------------------------------------> */
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+
+    /* ac is the position of the content about its cross(vertical) axis */
+    /* align-content: baseline; */
+    /* align-content: center; */
+    /* align-content: flex-start; 
+    align-content: normal;
+    align-content: flex-end; */
+    /* align-content: space-between; */
+
+
+    /* align-items: start;
+    align-items: center;
+    align-items: end;
+    align-items: flex-start; */
+    /* align-items: stretch; */
+    /* align-items: end; */
+    
+    
+
+}
+.box{
+    border: 1px solid blue;
+    background-color: pink;
+   
+}
+#box1{
+
+    /* both js ans as are grid items properties  */
+    /* justify-self: normal; */
+    align-self: center;
+    align-self: baseline;
+    align-self: normal;
+}

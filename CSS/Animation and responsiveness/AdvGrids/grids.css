@@ -1,0 +1,16 @@
+.container{
+    border:3px solid red;
+    background-color: yellow;
+    height: 750px;
+    display: grid;
+    
+    grid-gap: 10px;
+}
+    
+.box{
+     /* height: 100px; */
+    /* width: 100px; */
+    background-color: aqua;
+    border:1px solid black;
+}
+

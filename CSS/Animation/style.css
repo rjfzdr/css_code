@@ -1,0 +1,21 @@
+:root{
+    --dark-red: #981a2c;
+}
+
+.container{
+    border: 3px solid blueviolet;
+    background-color: var(--dark-red);
+    height: 100vh;
+    
+    display: grid;
+    grid-gap: 5px;
+}
+
+.box{
+    border: 1px solid black;
+    background-color: yellow;
+    /* for creating variable we use --nameofvariable  */
+    --dark-red: #981a2c;
+    color: var(--dark-red);
+    height: 100px ;
+}
